@@ -1,5 +1,6 @@
 // src/components/Admin.js
 import React, { useState } from 'react';
+import './Admin.css';
 
 const Admin = () => {
   const [username, setUsername] = useState('');
@@ -16,29 +17,33 @@ const Admin = () => {
   };
 
   return (
-    <div>
-      <h2>Página de Administração</h2>
+    <div className="admin-container">
+      <h2>login</h2>
       {loggedIn ? (
         <p>Bem-vindo, {username}!</p>
       ) : (
-        <div>
-          <label>
-            Usuário:
+        <div className="admin-form">
+          <label className="form-label">
+            usuário:
             <input
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
+              className="form-input"
             />
           </label>
-          <label>
-            Senha:
+          <label className="form-label">
+            senha:
             <input
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              className="form-input"
             />
           </label>
-          <button onClick={handleLogin}>Login</button>
+          <button onClick={handleLogin} className="form-button">
+            entrar
+          </button>
         </div>
       )}
     </div>
