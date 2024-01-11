@@ -5,7 +5,8 @@ import './App.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import Bingo from './components/Bingo';
-import Admin from './components/Admin';
+import ViewPage from './components/ViewPage';
+import AdminPage from './components/AdminPage';
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/bingo" element={<Bingo />} />
-          <Route path="/adm" element={<Admin />} />
+          <Route path="/adm" element={<AdminPage />} />
+          <Route path="/view" element={<ViewPage />} />
           {/* Adicione mais rotas conforme necessário */}
         </Routes>
       </div>

@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <h1>anap</h1>
-      <p>just an archive | BSI - UFRA | SAL - PGM.</p>
+      <p>paiN Gaming | BSI - UFRA | SBG</p>
       <div>
         <a href="https://twitter.com/outroana" target="_blank" rel="noopener noreferrer">
           twitter

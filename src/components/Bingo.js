@@ -4,7 +4,7 @@ import React from 'react';
 const Bingo = () => {
   return (
     <div>
-      <h2>Página Bingo</h2>
+      <h2>BINGO</h2>
       {/* Conteúdo da página Bingo */}
     </div>
   );
