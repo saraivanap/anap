@@ -1,0 +1,28 @@
+/* src/components/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Define a altura da tela para centralizar verticalmente */
+    text-align: center;
+    color: #51422c;
+    font-style: oblique;
+  }
+  
+  h1 {
+    color: #51422c;
+  }
+  
+  a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #51422c; /* Texto preto */
+    transition: color 0.3s; /* Transição suave de cor */
+  }
+  
+  a:hover {
+    color: #f2efce; /* Cor ao passar o mouse */
+  }
+  
