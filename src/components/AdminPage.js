@@ -9,7 +9,7 @@ const AdminPage = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    // Lógica de autenticação (substitua com sua própria lógica)
+    //  autenticação 
     if (password === 'azul') {
       navigate('/view');
     } else {
@@ -18,7 +18,7 @@ const AdminPage = () => {
   };
 
   return (
-    <div className="admin-page"> {/* Adicione a classe admin-page para aplicar o estilo */}
+    <div className="admin-page"> {/* aplicar o estilo */}
       <h2>área restrita</h2>
       <form>
         <label>

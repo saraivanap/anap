@@ -10,17 +10,17 @@ const Header = () => {
         <ul className="nav-menu">
           <li className="nav-item">
             <Link to="/" className="nav-link">
-              Home
+              home
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/bingo" className="nav-link">
-              Bingo
+              jogos
             </Link>
           </li>
           <li className="nav-item">
             <Link to="/adm" className="nav-link">
-              Admin
+              admin
             </Link>
           </li>
         </ul>
